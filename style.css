@@ -1,9 +1,15 @@
-div {
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#sidebar  {
     background-color: lightblue;
     padding: 20px;
     width: 200px;  /* Ensure the divs have width */
-    height: 100px; /* Ensure the divs have height */
-    margin: 10px;  /* Optional for spacing between divs */
-    border-radius: 5px;
+    height: 100%; /* Ensure the divs have height */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
