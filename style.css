@@ -1,15 +1,52 @@
 html, body {
   height: 100%;
   margin: 0;
+  min-height: 100vh;
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#dashboard {
+  width: 3rem;
+  padding-left: 8%;
+  padding-right: 4%;
+}
+
+svg {
+  width: 1.5rem;
+}
+
+#title {
+  font-size: 200%;
+  font-weight: 600;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 3rem;
+}
+
+.selection svg {
+  padding: 0 10%;
+}
+
+.selection  {
+  font-weight: 500;
+  height: 3rem;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 110%;
 }
 
 #sidebar  {
     background-color: lightblue;
     padding: 20px;
-    width: 200px;  /* Ensure the divs have width */
-    height: 100%; /* Ensure the divs have height */
+    width: 300px;
+    height: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     height: 100%;
+    min-height: 100vh
   }
