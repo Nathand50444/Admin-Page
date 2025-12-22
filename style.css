@@ -65,15 +65,14 @@ svg {
   }
 
   #header {
+    box-shadow: 0 8px 2px -2px gray;
     background-color: whitesmoke;
-    border: solid black;
     min-height: 20vh;
     display: flex; 
   }
 
   #admin_panel {
-    background-color: grey;
-    border: solid red;
+    background-color: #DDDD;
     display: flex; 
     flex-grow: 1;
     overflow-y: auto;
