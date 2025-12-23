@@ -65,6 +65,8 @@ svg {
   }
 
   #header {
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 8px 2px -2px gray;
     background-color: whitesmoke;
     min-height: 20vh;
@@ -76,4 +78,15 @@ svg {
     display: flex; 
     flex-grow: 1;
     overflow-y: auto;
+  }
+
+  .header_section {
+    border: solid red;
+    min-height: 10vh;
+  }
+
+  #search_bar {
+    height: 1.5rem;
+    width: 40rem;
+    border-radius: 10px;
   }
