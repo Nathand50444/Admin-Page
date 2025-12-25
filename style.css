@@ -44,7 +44,7 @@ svg {
   line-height: 3rem;
   display: flex;
   flex-direction: row;
-  font-size: 110%;
+  font-size: 90%;
 }
 
 #sidebar  {
@@ -87,6 +87,7 @@ svg {
 
   #search_bar {
     height: 1.5rem;
-    width: 40rem;
+    width: 50rem;
     border-radius: 10px;
+    background-color: #DDDD;
   }
