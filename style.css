@@ -44,7 +44,7 @@ svg {
   line-height: 3rem;
   display: flex;
   flex-direction: row;
-  font-size: 90%;
+  font-size: 100%;
 }
 
 #sidebar  {
@@ -83,11 +83,30 @@ svg {
   .header_section {
     border: solid red;
     min-height: 10vh;
+    display: flex;
   }
 
   #search_bar {
-    height: 1.5rem;
-    width: 50rem;
-    border-radius: 10px;
+    height: 2rem;
+    width: 40rem;
+    border-radius: 2rem;
     background-color: #DDDD;
+  }
+
+  #search {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1.5rem;
+  }
+
+  #search, #profile_id, #greeting, #profile_options {
+    border: solid red;
+    flex-grow: 1;
+  }
+
+  #mag {
+    height: 2rem;
+    width: 2rem;
+    padding-right: 1rem;
   }
