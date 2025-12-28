@@ -93,8 +93,7 @@ svg {
     background-color: #DDDD;
   }
 
-  #search, #profile_id, #greeting, #profile_options {
-    border: solid red;
+  #search, #profile_id, #profile_options {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -109,10 +108,35 @@ svg {
   }
 
   #profile_photo {
-    width: 15%;
+    width: 5rem;
     padding-right: 1rem;
   }
 
+  #greeting {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 50rem;
+  }
+
+  .greeting-content-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+  }
+
   #profile_id {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     width: 5rem;
+    padding: 0.5rem;
+  }
+
+  #welcome {
+    font-size: small;
+  }
+
+  #id {
+    font-size: larger;
   }
